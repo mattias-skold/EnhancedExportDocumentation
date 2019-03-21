@@ -1,0 +1,56 @@
+# Jekyll site
+# Package your Jekyll site using the jekyll/builder Docker container image.
+# Add steps that build, test, save build artifacts, deploy, and more:
+# https://aka.ms/yaml
+
+trigger:
+- master
+
+pool:
+  vmImage: 'Ubuntu-16.04'
+
+steps:
+- task: CmdLine@2
+  displayName: 'Attrib file '
+  inputs:
+    script: 'chmod a+w Gemfile.lock' 
+    workingDirectory: '$(build.sourcesDirectory)/mskold-site'
+- task: Docker@0
+  displayName: 'Run Jekyll'
+  inputs:
+    containerRegistryType: 'Container Registry'
+    action: 'Run an image'
+    imageName: 'jekyll/builder:latest'
+    volumes: |
+      $(build.sourcesDirectory)/mskold-site:/srv/jekyll
+      $(build.binariesDirectory):/srv/jekyll/_drop
+      $(build.ArtifactStagingDirectory):/srv/jekyll/_site
+    containerCommand: 'jekyll build'
+    detached: false
+- task: PublishBuildArtifacts@1
+  inputs: 
+    pathtoPublish: $(Build.ArtifactStagingDirectory)
+    artifactName: web
+# Jekyll site
+# Package your Jekyll site using the jekyll/builder Docker container image.
+# Add steps that build, test, save build artifacts, deploy, and more:
+# https://aka.ms/yaml
+
+trigger:
+- master
+
+pool:
+  vmImage: 'Ubuntu-16.04'
+
+steps:
+- task: Docker@0
+  displayName: 'Run Jekyll'
+  inputs:
+    containerRegistryType: 'Container Registry'
+    action: 'Run an image'
+    imageName: 'jekyll/builder:latest'
+    volumes: |
+      $(build.sourcesDirectory):/srv/jekyll
+      $(build.binariesDirectory):/srv/jekyll/_site
+    containerCommand: 'jekyll build --future'
+    detached: false
