@@ -26,6 +26,8 @@ twitter_username: mattiasskold
 github_username:  jekyll
 
 # Build settings
+
+source support-site
 markdown: kramdown
 theme: jekyll-airspace
 # theme: jekyll-theme-slate
