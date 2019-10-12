@@ -27,7 +27,7 @@ github_username:  jekyll
 
 # Build settings
 
-source support-site
+source: support-site
 markdown: kramdown
 theme: jekyll-airspace
 # theme: jekyll-theme-slate
