@@ -1,3 +1,8 @@
+---
+layout: page
+title: Getting started
+---
+
 # Getting started
 
 ## 1 Selecting the data to build your export on 
