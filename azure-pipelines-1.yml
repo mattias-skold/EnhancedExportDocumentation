@@ -10,6 +10,11 @@ pool:
   vmImage: 'ubuntu-latest'
 
 steps:
+- task: CmdLine@2
+  displayName: 'Attrib file '
+  inputs:
+    script: 'chmod a+w Gemfile.lock' 
+    workingDirectory: '$(build.sourcesDirectory)'
 - task: Docker@0
   displayName: 'Run Jekyll'
   inputs:
