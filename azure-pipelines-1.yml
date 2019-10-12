@@ -24,7 +24,7 @@ steps:
     volumes: |
       $(build.sourcesDirectory):/srv/jekyll
       $(build.ArtifactStagingDirectory):/srv/jekyll/_site
-    containerCommand: 'jekyll build --source support-site --trace'
+    containerCommand: 'jekyll build --trace'
     detached: false
 - task: PublishBuildArtifacts@1
   inputs: 
