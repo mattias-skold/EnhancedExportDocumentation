@@ -33,6 +33,8 @@ theme: jekyll-airspace
 # theme: jekyll-theme-slate
 plugins:
   - jekyll-feed
+  
+gems:
   - jekyll-git_metadata
 
 # Exclude from processing.
