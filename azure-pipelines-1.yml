@@ -13,7 +13,7 @@ steps:
 - task: CmdLine@2
   displayName: 'make dir writeable  '
   inputs:
-    script: 'chmod chmod -R a+rwX  $(build.sourcesDirectory)' 
+    script: 'chmod -R a+rwX  $(build.sourcesDirectory)' 
     workingDirectory: '$(build.sourcesDirectory)'
 - task: CmdLine@2
   displayName: 'Attrib file '
