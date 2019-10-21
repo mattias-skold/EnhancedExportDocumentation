@@ -1,6 +1,29 @@
 ---
 layout: default
 ---
+<link rel="stylesheet"
+    href="https://static2.sharepointonline.com/files/fabric/office-ui-fabric-core/9.6.0/css/fabric.min.css">
+<style>
+  .pageinfo {
+      background: ghostwhite;
+      font-size: small;
+      text-align: center;
+      height: 25px;
+      color: gray;
+    }
+
+    .infoBar {
+      margin-left: 10px;
+      margin-right: 10px;
+    }
+
+    .improve {
+      text-align: right;
+      font-size: small;
+      color: gray !important;
+
+    }
+</style>
   <div class="pageinfo">
 
     {% capture time %}{{ content | reading_time }}{% endcapture %}
