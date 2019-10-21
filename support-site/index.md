@@ -1,10 +1,8 @@
 ---
-# Feel free to add content and custom Front Matter to this file.
-# To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
-
 layout: default
 ---
 # Getting started
+[Getting started](#gettingStarted)
 
 ## 1 Selecting the data to build your export on 
 As a first step – you need to select what data you want to include in your export. This is done by selecting (or creating your own) Work Item Query under Work/Query  or for test plan data – select a test plan and optional test suite under Test/Test plan  
