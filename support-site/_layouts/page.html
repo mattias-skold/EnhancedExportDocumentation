@@ -1,7 +1,26 @@
 ---
 layout: default
 ---
-Last change: {{ page.git.last_commit.commit_date }} by {{ page.git.last_commit.commit_name }}
+  <div class="pageinfo">
+
+    {% capture time %}{{ content | reading_time }}{% endcapture %}
+    <span>This article will take {{ time }} {% if time == '1' %}minute{% else %}minutes{% endif %} to read.</span>
+
+    {% if page.git.last_commit.author_date %}
+    <span id="filledCommitTime" class="infoBar">Last commit: {{ page.git.last_commit.author_date | timeago }} </span>
+    {% endif %}
+
+    <span class="infoBar"><i class="ms-Icon ms-Icon--Contact"></i> &nbsp; Contributors:
+      {% for item in page.git.authors %} &nbsp;
+      <a href="mailto:{{ item.email }}">{{ item.name }}</a>
+      {% endfor %}
+    </span>
+  </div>
+  <div class="improve"><a
+      href="{{site.azuredevopsroot}}/_git/CloudBoost.ServiceCatalog?path=%2F{{ page.path }}&version=GBmaster"><i
+        class="ms-Icon ms-Icon--PageEdit"></i> &nbsp;Improve this page</a></div>
+  </div>
+
 <hr/>
 <div class="container-fluid container-middle">
     {{ content }}
