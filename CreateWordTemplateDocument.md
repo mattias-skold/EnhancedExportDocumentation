@@ -1,3 +1,8 @@
+---
+layout: page
+title: Create custom word document template
+---
+
 With Enhanced Export PRO you can upload your own word documents as Word templates. Those templates can then be used to export the data into, creatign true word documents according to your standards.
 
 To create a word document template:
