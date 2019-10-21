@@ -33,9 +33,8 @@ theme: jekyll-airspace
 # theme: jekyll-theme-slate
 plugins:
   - jekyll-feed
-  
-gems:
   - jekyll-git_metadata
+  - liquid_reading_time
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
