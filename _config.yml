@@ -32,9 +32,10 @@ markdown: kramdown
 theme: jekyll-airspace
 # theme: jekyll-theme-slate
 plugins:
+  - jekyll-git_metadata
   - jekyll-feed
   - liquid_reading_time
-  - jekyll-git_metadata
+
 
 
 # Exclude from processing.
