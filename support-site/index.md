@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: page
 ---
 # Getting started
 [Getting started](gettingStarted)
