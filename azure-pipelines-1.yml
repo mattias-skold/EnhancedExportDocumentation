@@ -28,7 +28,7 @@ steps:
     imageName: 'jekyll/builder:latest'
     volumes: |
       $(build.sourcesDirectory):/srv/jekyll
-      $(build.ArtifactStagingDirectory):/srv/jekyll/_site
+      $(build.ArtifactStagingDirectory)/support:/srv/jekyll/_site
     containerCommand: 'jekyll build --trace'
     detached: false
 - task: CmdLine@2
