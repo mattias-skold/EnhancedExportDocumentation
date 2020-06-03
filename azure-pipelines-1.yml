@@ -25,7 +25,7 @@ steps:
   displayName: 'Create SubDir Support '
   inputs:
     script: 'mkdir support' 
-    workingDirectory: '$(build.build.ArtifactStagingDirectory)'
+    workingDirectory: '$(build.ArtifactStagingDirectory)'
 - task: Docker@0
   displayName: 'Run Jekyll'
   inputs:
