@@ -20,6 +20,12 @@ steps:
   inputs:
     script: 'chmod a+w Gemfile.lock' 
     workingDirectory: '$(build.sourcesDirectory)'
+    
+- task: CmdLine@2
+  displayName: 'Create SubDir Support '
+  inputs:
+    script: 'mkdir support' 
+    workingDirectory: '$(build.sourcesDirectory)'
 - task: Docker@0
   displayName: 'Run Jekyll'
   inputs:
