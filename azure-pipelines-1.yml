@@ -26,6 +26,13 @@ steps:
   inputs:
     script: 'mkdir support' 
     workingDirectory: '$(build.ArtifactStagingDirectory)'
+
+    - task: CmdLine@2
+  displayName: 'Create SubDir EnhancedExportPro '
+  inputs:
+    script: 'mkdir EnhancedExportPro' 
+    workingDirectory: '$(build.ArtifactStagingDirectory)/support'
+
 - task: Docker@0
   displayName: 'Run Jekyll'
   inputs:
@@ -34,7 +41,7 @@ steps:
     imageName: 'jekyll/builder:latest'
     volumes: |
       $(build.sourcesDirectory):/srv/jekyll
-      $(build.ArtifactStagingDirectory)/support:/srv/jekyll/_site
+      $(build.ArtifactStagingDirectory)/support/EnhancedExportPro:/srv/jekyll/_site
     containerCommand: 'jekyll build --trace'
     detached: false
 - task: CmdLine@2
