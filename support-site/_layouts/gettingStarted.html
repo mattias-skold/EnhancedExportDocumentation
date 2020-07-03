@@ -45,13 +45,13 @@ layout: default
   </div>
 
 <hr/>
-<div class="container-fluid container-middle">
+<div class="container-fluid container-left">
   {% for page in site.pages %}
-  <h3><a href="{{ page.url }}">{{ page.title }}</a></h3>
+  <h4><a href="{{ page.url }}">{{ page.title }}</a></h3>
  
 {% endfor %}
 </div>
-<div class="container-fluid container-left">
+<div class="container-fluid container-middle">
   <h1> {{ page.title }}</h1>
   {{ content }}
 </div>
