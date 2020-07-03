@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: gettingStarted
 title: Create your own word template
 ---
 

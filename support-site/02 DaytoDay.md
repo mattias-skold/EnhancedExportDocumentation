@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: gettingStarted
 title: Export tab for day to day operations
 ---
 
