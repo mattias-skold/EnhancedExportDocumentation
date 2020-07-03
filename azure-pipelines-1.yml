@@ -27,7 +27,7 @@ steps:
     script: 'mkdir support' 
     workingDirectory: '$(build.ArtifactStagingDirectory)'
 
-    - task: CmdLine@2
+- task: CmdLine@2
   displayName: 'Create SubDir EnhancedExportPro '
   inputs:
     script: 'mkdir EnhancedExportPro' 
