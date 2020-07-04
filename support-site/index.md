@@ -29,7 +29,7 @@ or Test plan.
 # Functionality in the export tab
 | |  |
 |-----|-----|
-|Template selector ![Template selector](./img/TemplateSelector.png ) | The template selector lets you select what template you want to render the report. The template defines the structure and layout of how the data is presented. By choosing different templates your data can be presented  like a grid, a specification or a traceability matrix. You can easily copy or create your own custom templates in the Admin hub. |
+|Template selector ![Template selector](./img/TemplateSelector.png) | The template selector lets you select what template you want to render the report. The template defines the structure and layout of how the data is presented. By choosing different templates your data can be presented  like a grid, a specification or a traceability matrix. You can easily copy or create your own custom templates in the Admin hub. |
 | Options ![Options](./img/Options.png)|  Options lets you mainly control what extra data you want to collect. Collecting more data gives you more detailed reports but takes more time. The available options are different between work item queries and test plans. |
 | Decorators ![Decorators](./img/Decorators.png)| Decorators lets you apply different styling rules to the report. Clicking this will show the available Decorators and lets you choose which ones you want to apply and set properties if the decorator has any.|
 |Refresh ![Refresh](./img/Refresh.png)| Refresh the data and rendering|
@@ -60,11 +60,13 @@ standards and styling
  
 
 
-## Creating customizations
-The Admin hub is the place for creating customizations. While creating customization
+## Edit templates 
+The Admin hub is the place for editing templates . While creating customization
 can be a bit technical, it’s fairly easy to copy an existing template and make minor
 changes like adding or removing fields without technical knowledge.
-Simple customizations
+
+Simple Modifications
+
 To make minor changes to an existing template – follow those steps:
 1. Go to the admin hub
 2. Select the template you want to make changes to in the left-hand
