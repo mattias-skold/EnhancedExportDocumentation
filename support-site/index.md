@@ -28,7 +28,13 @@ or Test plan. You can easily change between a number of prebuilt templates and y
 ![Export tab](./img/ExportTabScreenShoot.png "Title")
 
 
-# Functionality in the export tab
+## Functionality in the export tab
+<table>
+    <tr>
+        <td>Template selector ![Template selector](./img/TemplateSelector.png) </td>
+        <td> The template selector lets you select what template you want to render the report. The template defines the structure and layout of how the data is presented. By choosing different templates your data can be presented  like a grid, a specification or a traceability matrix. You can easily copy or create your own custom templates in the Admin hub.</td>
+    </tr>
+</table>
 |     |     |
 |-----|-----|
 |Template selector ![Template selector](./img/TemplateSelector.png) | The template selector lets you select what template you want to render the report. The template defines the structure and layout of how the data is presented. By choosing different templates your data can be presented  like a grid, a specification or a traceability matrix. You can easily copy or create your own custom templates in the Admin hub. |
@@ -67,7 +73,7 @@ The Admin hub is the place for editing templates . While creating customization
 can be a bit technical, it’s fairly easy to copy an existing template and make minor
 changes like adding or removing fields without technical knowledge.
 
-# Simple Modifications
+## Simple Modifications
 
 To make minor changes to an existing template – follow those steps:
 1. Go to the admin hub
@@ -81,7 +87,7 @@ menu.
 8. For field names and data – look at the Data tab
 9. Save
 
-# Advanced customizations
+## Advanced modifications
 If you want to do advanced custom solutions, the technologies used for templates is
 mainly XML, XSLT and HTML. If you prefer the Enhanced Export PRO version also
 supports Handlebars and markdown. 
