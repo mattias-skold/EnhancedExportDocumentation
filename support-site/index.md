@@ -31,22 +31,48 @@ or Test plan. You can easily change between a number of prebuilt templates and y
 ## Functionality in the export tab
 <table>
     <tr>
-        <td>Template selector ![Template selector](./img/TemplateSelector.png) </td>
+        <td>Template selector <br/><img src="./img/TemplateSelector.png" /> </td>
         <td> The template selector lets you select what template you want to render the report. The template defines the structure and layout of how the data is presented. By choosing different templates your data can be presented  like a grid, a specification or a traceability matrix. You can easily copy or create your own custom templates in the Admin hub.</td>
     </tr>
+    <tr>
+        <td>Options <br/><img src="./img/Options.png" /> </td>
+        <td>Options lets you mainly control what extra data you want to collect. Collecting more data gives you more detailed reports but takes more time. The available options are different between work item queries and test plans.</td>
+    </tr>
+    <tr>
+        <td>Decorators <br/><img src="./img/Decorators.png" /> </td>
+        <td>Decorators lets you apply different styling rules to the report. Clicking this will show the available Decorators and lets you choose which ones you want to apply and set properties if the decorator has any.</td>
+    </tr>
+    <tr>
+        <td>Refresh <br/><img src="./img/Refresh.png" /> </td>
+        <td>Refresh the data and rendering</td>
+    </tr>
+    <tr>
+        <td>Open <br/><img src="./img/Open.png" /> </td>
+        <td>Exports the report area to the destination you choose in the dropdown. Enhanced Export PRO supports exporting to multiple word templates, as well as simpler formats like HTML and Mime HTML.</td>
+    </tr>
+    <tr>
+        <td>Print<br/><img src="./img/Print.png" /> </td>
+        <td>Prints the report using the standard browser printing</td>
+    </tr>
+    <tr>
+        <td>Copy <br/><img src="./img/Copy.png" /> </td>
+        <td>Copies the entire report to the clipboard, so you easily can paste it into other applications.</td>
+    </tr>
+    <tr>
+        <td>Support <br/><img src="./img/Support.png" /> </td>
+        <td>Displays a sub menu with different support options for contacting support, as well as the currently loaded extension version</td>
+    </tr>
+
+ <tr>
+        <td>Purchase <br/><img src="./img/Purchase.png" /> </td>
+        <td>Let’s you purchase and manage your purchased licenses.</td>
+    </tr>
+     <tr>
+        <td>Settings <br/><img src="./img/Settings.png" /> </td>
+        <td>Opens the Admin hub used for editing templates, decorators and document templates</td>
+    </tr>
 </table>
-|     |     |
-|-----|-----|
-|Template selector ![Template selector](./img/TemplateSelector.png) | The template selector lets you select what template you want to render the report. The template defines the structure and layout of how the data is presented. By choosing different templates your data can be presented  like a grid, a specification or a traceability matrix. You can easily copy or create your own custom templates in the Admin hub. |
-| Options ![Options](./img/Options.png)|  Options lets you mainly control what extra data you want to collect. Collecting more data gives you more detailed reports but takes more time. The available options are different between work item queries and test plans. |
-| Decorators ![Decorators](./img/Decorators.png)| Decorators lets you apply different styling rules to the report. Clicking this will show the available Decorators and lets you choose which ones you want to apply and set properties if the decorator has any.|
-|Refresh ![Refresh](./img/Refresh.png)| Refresh the data and rendering|
-|Open ![Open](./img/Open.png)|Exports the report area to the destination you choose in the dropdown. Enhanced Export PRO supports exporting to multiple word templates, as well as simpler formats like HTML and Mime HTML.
-|Print ![Print](./img/Print.png)|Prints the report using the standard browser printing|
-|Copy ![Copy](./img/Copy.png )| Copies the entire report to the clipboard, so you easily can paste it into other applications. |
-|Support ![Support](./img/Support.png ) | Displays a sub menu with different support options for contacting support, as well as the currently loaded extension version |
-|Purchase ![Purchase](./img/Purchase.png) |Let’s you purchase and manage your purchased licenses.|
-|Settings ![Settings](./img/Settings.png)| Opens the Admin hub used for editing templated, decorators and document templates|
+
 
 ## Create your own word template
 You can simply take your ordinary word document with your organizations logo and
