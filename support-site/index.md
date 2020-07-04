@@ -1,5 +1,6 @@
 ---
 layout: page
+title: Getting started 
 ---
 
 ## Introduction
@@ -22,12 +23,13 @@ needed for creating customized solutions is put into the Admin Hub.
 ## Export tab for day to day operations
 For your day to day operations you have the export tab right in your workflow, just
 click on the export tab and it will render a report with your current Work Item Query
-or Test plan.
+or Test plan. You can easily change between a number of prebuilt templates and your own custom templates producing different reports. 
+
 ![Export tab](./img/ExportTabScreenShoot.png "Title")
 
 
 # Functionality in the export tab
-| |  |
+|     |     |
 |-----|-----|
 |Template selector ![Template selector](./img/TemplateSelector.png) | The template selector lets you select what template you want to render the report. The template defines the structure and layout of how the data is presented. By choosing different templates your data can be presented  like a grid, a specification or a traceability matrix. You can easily copy or create your own custom templates in the Admin hub. |
 | Options ![Options](./img/Options.png)|  Options lets you mainly control what extra data you want to collect. Collecting more data gives you more detailed reports but takes more time. The available options are different between work item queries and test plans. |
@@ -65,7 +67,7 @@ The Admin hub is the place for editing templates . While creating customization
 can be a bit technical, it’s fairly easy to copy an existing template and make minor
 changes like adding or removing fields without technical knowledge.
 
-Simple Modifications
+# Simple Modifications
 
 To make minor changes to an existing template – follow those steps:
 1. Go to the admin hub
@@ -78,8 +80,11 @@ menu.
 7. Remove or copy an existing field and change the field name.
 8. For field names and data – look at the Data tab
 9. Save
-Advanced customizations
+
+# Advanced customizations
 If you want to do advanced custom solutions, the technologies used for templates is
 mainly XML, XSLT and HTML. If you prefer the Enhanced Export PRO version also
 supports Handlebars and markdown. 
-supports Handlebars and markdown. 
+
+
+
