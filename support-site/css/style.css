@@ -32,3 +32,9 @@
 .post-area a:hover {
   color: #0D0017;
 }
+.feedbackFooter {
+  width: 100%;
+  min-height: 40px;
+  background-color: lightgray;
+}
+

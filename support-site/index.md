@@ -25,7 +25,7 @@ For your day to day operations you have the export tab right in your workflow, j
 click on the export tab and it will render a report with your current Work Item Query
 or Test plan. You can easily change between a number of prebuilt templates and your own custom templates producing different reports. 
 
-![Export tab](./img/ExportTabScreenShoot.png "Title")
+<img src="./img/ExportTabScreenShoot.png" alt="Export tab screenshot" width="100%"/>
 
 
 ## Functionality in the export tab
