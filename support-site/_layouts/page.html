@@ -50,7 +50,7 @@ layout: default
 <div class="container">
   <div style="float: left;">
   {% for page in site.pages %}
-    <h6><a href="{{ page.url }}">{{ page.title }}</a></h6>
+    <h6><a href="{{ page.url | relative_url  }}">{{ page.title }}</a></h6>
   {% endfor %}
   </div>
 
