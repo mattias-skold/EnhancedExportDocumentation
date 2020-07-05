@@ -31,35 +31,30 @@ layout: default
 
 <div class="container">
   <div style="float: left;">
-  {% for page in site.pages %}
-    <h6><a href="{{ page.url | relative_url  }}">{{ page.title }}</a></h6>
-  {% endfor %}
+    {% for page in site.pages %}
+      <h6><a href="{{ page.url | relative_url  }}">{{ page.title }}</a></h6>
+    {% endfor %}
   </div>
 
   <div class="container-fluid container-middle">
 
     <div class="pageinfo">
-
       {% capture time %}{{ content | reading_time }}{% endcapture %}
-      <span class="timetoRead">This article will take {{ time }} {% if time == '1' %}minute{% else %}minutes{% endif %} to read.</span>
-  
+      <span class="timetoRead">This article will take {{ time }} {% if time == '1' %}minute{% else %}minutes{% endif %} to read.</span> 
       {% if page.git.last_commit.author_date %}
       <span id="filledCommitTime" class="infoBar">Last commit: {{ page.git.last_commit.author_date | timeago }} </span>
-      {% endif %}
-  
+      {% endif %}  
       <span class="infoBar"><i class="ms-Icon ms-Icon--Contact"></i> &nbsp; Contributors:
         {% for item in page.git.authors %} &nbsp;
         <a href="mailto:{{ item.email }}">{{ item.name }}</a>
         {% endfor %}
       </span>
-      <span class="improve"><a
-        href="https://github.com/mattias-skold/EnhancedExportDocumentation/edit/master/support-site/{{ page.path }}"><i
-          class="ms-Icon ms-Icon--PageEdit"></i> &nbsp;Improve this page</a></div>
+      <span class="improve">
+        <a href="https://github.com/mattias-skold/EnhancedExportDocumentation/edit/master/support-site/{{ page.path }}">   <i class="ms-Icon ms-Icon--PageEdit"></i> &nbsp;Improve this page</a>
       </span>
     </div>
   
-  
-  <hr/>
+     <hr/>
   
     <h1> {{ page.title }}</h1>
      {{ content }}
