@@ -74,7 +74,7 @@ or Test plan. You can easily change between a number of prebuilt templates and y
 </table>
 
 
-## Create your own word template
+## Exporting to word document with your organizations style
 You can simply take your ordinary word document with your organizations logo and
 styling and convert it to a word template used by Enhanced Export PRO to create its
 word document.

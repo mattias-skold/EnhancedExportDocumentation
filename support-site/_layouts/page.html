@@ -17,17 +17,21 @@ layout: default
       margin-right: 10px;
     }
 
+    .timetoRead{
+        float: left;
+    }
+
     .improve {
       text-align: right;
       font-size: small;
       color: gray !important;
-
+      float:right;
     }
 </style>
   <div class="pageinfo">
 
     {% capture time %}{{ content | reading_time }}{% endcapture %}
-    <span>This article will take {{ time }} {% if time == '1' %}minute{% else %}minutes{% endif %} to read.</span>
+    <span class="timetoRead">This article will take {{ time }} {% if time == '1' %}minute{% else %}minutes{% endif %} to read.</span>
 
     {% if page.git.last_commit.author_date %}
     <span id="filledCommitTime" class="infoBar">Last commit: {{ page.git.last_commit.author_date | timeago }} </span>

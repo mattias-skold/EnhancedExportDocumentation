@@ -5,10 +5,10 @@ title: How does Enhanced Export PRO work
 
 # Overview 
 Enhanced Export PRO produces your document in 4 steps 
-Fetching data 
-Rendering data to a report 
-Decorating the report with styles
-Exporting the report into a file
+1. Fetching data 
+2. Rendering data to a report 
+3. Decorating the report with styles
+4. Exporting the report into a file
 
 Each step has a lot of configurable options that lets you customize the outcome. Those configurable options are packaged into ** Templates **. The same work item query or test plan can be transformed to a table, text document and matrix by selecting different templates. 
 
