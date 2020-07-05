@@ -31,7 +31,7 @@ layout: default
 
 <div class="container">
   <div style="float: left;">
-    {% for page in site.pages | revers %}
+    {% for page in site.pages |sort (name) |reverse %}
       <h6><a href="{{ page.url | relative_url  }}">{{ page.title }}</a></h6>
     {% endfor %}
   </div>
