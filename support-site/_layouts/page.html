@@ -31,7 +31,11 @@ layout: default
       float:right;
     }
 </style>
-
+<script>
+  function SendHelpfullTelemetry(isHelpfull){
+    appInsights.trackEvent({name:isHelpfull?'Helpful':'Not-Helpful'});
+  }
+</script>
 <div class="container">
   <div style="float: left;">
     <img src="./img/EnhancedExportPRO-logo.png" width="50%" /> 
@@ -68,8 +72,8 @@ layout: default
       <span style="
     margin-left: 50%;
     margin-right: 50%;
-">Was this page helpfull <a onclick="alert('Thnx');appInsights.trackEvent({name:'Helpful'});" href="javascript:appInsights.trackEvent({name:'Helpful'});"
->Yes</a>/ <a onclick="alert('Thnx Sorry to learn that');appInsights.trackEvent({name:'Not-Helpful'});" href="javascript:appInsights.trackEvent({name:'Not-Helpful'});">No</a></span>
+">Was this page helpfull <a onclick="alert('Thnx');SendHelpfullTelemetry(true);" href="#"
+>Yes</a>/ <a onclick="alert('Thnx Sorry to learn that');SendHelpfullTelemetry(false);" href="#">No</a></span>
      </div>
     </div>
 </div>
