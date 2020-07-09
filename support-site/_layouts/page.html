@@ -10,9 +10,11 @@ layout: default
       text-align: center;
       height: 25px;
       color: gray;
+      padding:6px;
     }
     .feedbackFooter{
       background-color: ghostwhite;
+      padding:6px;
 
     }
     .infoBar {
@@ -68,11 +70,8 @@ layout: default
     <h1> {{ page.title }}</h1>
      {{ content }}
   
-     <div class="feedbackFooter"> Provide feedback <br/>
-      <span style="
-    margin-left: 50%;
-    margin-right: 50%;
-">Was this page helpfull <a onclick="alert('Thnx');SendHelpfullTelemetry(true);" href="#"
+     <div class="feedbackFooter"> 
+      <span style="margin-left: 50%;margin-right: 50%;white-space:nowrap;">Was this page helpfull <a onclick="alert('Thnx');SendHelpfullTelemetry(true);" href="#"
 >Yes</a>/ <a onclick="alert('Thnx Sorry to learn that');SendHelpfullTelemetry(false);" href="#">No</a></span>
      </div>
     </div>
