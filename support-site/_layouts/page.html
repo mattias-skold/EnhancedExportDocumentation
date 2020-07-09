@@ -11,7 +11,10 @@ layout: default
       height: 25px;
       color: gray;
     }
+    .feedbackFooter{
+      background-color: ghostwhite;
 
+    }
     .infoBar {
       margin-left: 10px;
       margin-right: 10px;
@@ -61,6 +64,12 @@ layout: default
     <h1> {{ page.title }}</h1>
      {{ content }}
   
-     <div class="feedbackFooter"> Provide feedback</div>
+     <div class="feedbackFooter"> Provide feedback <br/>
+      <span style="
+    margin-left: 50%;
+    margin-right: 50%;
+">Was this page helpfull <a onclick="alert('Thnx');appInsights.trackEvent({name:'Helpful'});" href="javascript:appInsights.trackEvent({name:'Helpful'});"
+>Yes</a>/ <a onclick="alert('Thnx Sorry to learn that');appInsights.trackEvent({name:'Not-Helpful'});" href="javascript:appInsights.trackEvent({name:'Not-Helpful'});">No</a></span>
+     </div>
     </div>
 </div>
