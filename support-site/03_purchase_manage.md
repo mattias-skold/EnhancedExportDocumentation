@@ -5,7 +5,8 @@ title: Purchase and manage licenses
 ## Introduction 
 Enhanced Export PRO is licenesed through subscriptions. You can have multiple subscriptions side by side with seperated billing and management. 
 . Each user who want to use extension needs to have an active subscription or they will see this screen. 
-![](./img/no-licenseScreen.png)
+
+![](./img/no-licenseScreen50.png)
 
 From here you can **purchase** a subscription or **request a license** from an existing subscription in your organization. 
 
