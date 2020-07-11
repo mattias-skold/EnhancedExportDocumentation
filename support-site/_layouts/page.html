@@ -43,7 +43,14 @@ layout: default
     <img src="./img/EnhancedExportPRO-logo.png" width="50%" /> 
     <br/>
     {% for page in site.pages |sort (name) |reverse %}
-      <h6><a href="{{ page.url | relative_url  }}">{{ page.title }}</a></h6>
+      {% if page.name == "index.md" %}
+        <h6><a href="{{ page.url | relative_url  }}">{{ page.title }}</a></h6>
+      {% endif }
+    {% endfor %}
+    {% for page in site.pages |sort (name) |reverse %}
+      {% if page.name != "index.md" %}
+        <h6><a href="{{ page.url | relative_url  }}">{{ page.title }}</a></h6>
+      {% endif }
     {% endfor %}
   </div>
 
