@@ -33,6 +33,12 @@ layout: default
       float:right;
     }
 </style>
+<!--  
+
+      {{ page.git }}
+
+-->
+
 <script>
   function SendHelpfullTelemetry(isHelpfull){
     appInsights.trackEvent({name:isHelpfull?'Helpful':'Not-Helpful'});
@@ -42,23 +48,20 @@ layout: default
   <div style="float: left;">
     <img src="./img/EnhancedExportPRO-logo.png" width="50%" /> 
     <br/>
-    {% for page in site.pages %}
-      {% if page.name == "index.md" %}
-        <h6><a href="{{ page.url | relative_url  }}">{{ page.title }}</a></h6>
+    {% for p in site.pages %}
+      {% if p.name == "index.md" %}
+        <h6><a href="{{ p.url | relative_url  }}">{{ p.title }}</a></h6>
       {% endif %}
     {% endfor %}
 
-    {% for page in site.pages %}
-      {% if page.name != "index.md" %}
-        <h6><a href="{{ page.url | relative_url  }}">{{ page.title }}</a></h6>
+    {% for p in site.pages %}
+      {% if p.name != "index.md" %}
+        <h6><a href="{{ p.url | relative_url  }}">{{ p.title }}</a></h6>
       {% endif %}
     {% endfor %}
   </div>
 
   <div class="container-fluid container-middle">
-
-    {{ page.git }}
-    
     <div class="pageinfo">
       {% capture time %}{{ content | reading_time }}{% endcapture %}
       <span class="timetoRead">This article will take {{ time }} {% if time == '1' %}minute{% else %}minutes{% endif %} to read.</span> 
