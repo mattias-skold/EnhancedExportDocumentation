@@ -42,6 +42,8 @@ layout: default
   <div style="float: left;">
     <img src="./img/EnhancedExportPRO-logo.png" width="50%" /> 
     <br/>
+    HALLLO
+    <br/>
     {% for page in site.pages |sort (name) |reverse %}
       {% if page.name == "index.md" %}
         <h6><a href="{{ page.url | relative_url  }}">{{ page.title }}</a></h6>
