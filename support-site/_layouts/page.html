@@ -57,6 +57,8 @@ layout: default
 
   <div class="container-fluid container-middle">
 
+    {{ page.git }}
+    
     <div class="pageinfo">
       {% capture time %}{{ content | reading_time }}{% endcapture %}
       <span class="timetoRead">This article will take {{ time }} {% if time == '1' %}minute{% else %}minutes{% endif %} to read.</span> 
