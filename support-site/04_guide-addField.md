@@ -24,9 +24,9 @@ Once selected - Change the **name**, **id**  and set the **Scope**
 > 
 
 ## Find the right location 
-A very quick way of finding the right location for a change is to take a fext you know is present, like a label or a specific field name and search for it. 
+A very quick way of finding the right location for a change is to take a text you know is present, like a label or a specific field name and search for it. 
 
->Place the cursor in the text editor on the template tab and press Ctrl + F and serach for the text Priority 
+>Place the cursor in the text editor on the template tab and press Ctrl + F and search for the text Priority 
 
 
 ## Add the field  
