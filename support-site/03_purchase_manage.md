@@ -31,7 +31,8 @@ The purchase process is a simple 4 step process
 ### 3. Provide customer & credit card information
 ![](./img/purchase-subscription.png)
 
-### 4. manage your purchase subscript
+### 4. manage your purchased subscription
+Once purchased you need to assign the users to your subscription. You can change the assigned users at any time.
 ![](./img/purchase-manage-subscription.png)
 
 ## Managing subscription
