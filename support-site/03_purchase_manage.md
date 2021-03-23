@@ -35,6 +35,7 @@ The purchase process is a simple 4 step process
 Once purchased you need to assign the users to your subscription. You can change the assigned users at any time.
 ![](./img/purchase-manage-subscription.png)
 
+
 ## Managing subscription
 On the top of your subscription there is links to **change the quantity**, **change billing details** and **cancel the subscription**. You can access your invoices on the **Invoice tab** and on the **Settings tab** you can rename your subscription and change owner of it. 
 
