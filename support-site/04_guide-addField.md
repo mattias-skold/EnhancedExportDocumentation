@@ -25,7 +25,7 @@ Once selected - Change the **name**, **id**  and set the **Scope** and click the
 A very quick way of finding the right location for a change is to take a text you know is present, like a label or a specific field name and search for it. 
 
 >Place the cursor in the text editor on the template tab and press Ctrl + F and search for the text Priority 
-<img src="./img/edit_templare_find_place.png" /> 
+<img src="./img/edit_template_find_place.png" /> 
 
 
 ## Add the field  
@@ -36,7 +36,7 @@ You can manually add the field by typing the XSLT code for featching it. Use <xs
 You can find the name of your field in the data tab. 
 
 >Type the lead text and <xsl:value-of select="Custom.CustomPriority" />
-<img src="./img/edit_templare_add_field.png" /> 
+<img src="./img/edit_template_add_field.png" /> 
 
 
 ## Test it 
