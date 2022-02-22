@@ -6,16 +6,17 @@ or by
 ![](./img/navigat-to-subscription_org.png)
 
 
-
+### 1 Selecting your subscription 
 ![](./img/select-subscriptions.png)
-
+From the list of subscriptions - click on the subsription you want to manage/change. Only the subsc
 From here you can purchase additional subscriptions or manage existing subscriptions by clicking on them. 
 
 
 
-### 1. Assing users to your subscription
+### 2. Assing users to your subscription
 Once purchased you need to assign the users to your subscription. You can change the assigned users at any time.
 ![](./img/purchase-manage-subscription.png)
+
 You can either search for users (part of any team in any projects) or approve request from users requesting a licenses. 
 
 **Auto approval of licenses requests**
