@@ -14,6 +14,7 @@ or by
 
 ### 2. Selecting your subscription 
 ![](./img/select-subscriptions.png)
+
 From the list of subscriptions - click on the subsription you want to manage/change. Only the subsc
 From here you can purchase additional subscriptions or manage existing subscriptions by clicking on them. 
 
