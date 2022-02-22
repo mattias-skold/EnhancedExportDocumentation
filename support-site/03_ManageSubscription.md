@@ -3,9 +3,9 @@ Once a subscription has been purchased you can manage it by navigating to the su
 
 ### 1. Navigating to your subscription 
 This can either be done by 
-![](./img/navigat-to-subscription_tab.png)
+![](./img/navigate-to-subscription_tab.png)
 or by 
-![](./img/navigat-to-subscription_org.png)
+![](./img/navigate-to-subscription_org.png)
 
 ### 1. Selecting your subscription 
 ![](./img/select-subscriptions.png)
