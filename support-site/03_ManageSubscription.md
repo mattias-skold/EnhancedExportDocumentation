@@ -21,7 +21,7 @@ From here you can purchase additional subscriptions or manage existing subscript
 
 ### 3. Assing users to your subscription
 Once purchased you need to assign the users to your subscription. You can change the assigned users at any time.
-![](./img/purchase-manage-subscription.png)
+![](./img/subscription_page.png)
 
 You can either search for users (part of any team in any projects) or approve request from users requesting a licenses. 
 
