@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Editing templates
+title: Managing subscriptions
 ---
 
 ## Managing subscriptions 
