@@ -11,11 +11,11 @@ Exporting to word
 ## Document properties 
 The title of the report is taken from the title html element if present, if not the query name Is used. 
 By default we populate the following properties  of the exported word document 
-•	Title
-•	Creator
-•	Creted
-•	Modified 
-•	Last modified by 
+*	Title
+*	Creator
+*	Creted
+*	Modified 
+*	Last modified by 
 
 
 ### Setting document properties in the template 
