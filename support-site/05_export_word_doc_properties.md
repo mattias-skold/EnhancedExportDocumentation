@@ -18,13 +18,15 @@ By default we populate the following properties  of the exported word document
 •	Last modified by 
 
 
-#
-We also push all Options as custom properties, enabling the user to fill values at run time and have them exported as document properties in word. 
-
-# Setting document properties in the template 
+### Setting document properties in the template 
 You can create and set document properties in the exported document by rendering a META tag 
 
 <meta name="word-properties"  data-propName="Prop value" data-prop2Name="prop 2 value"/>
+
+
+
+### Setting properties at runtime 
+We also push all Options as custom properties, enabling the user to fill values at run time and have them exported as document properties in word. 
 
 
 
