@@ -43,4 +43,6 @@ Create a new macro AutoOpen in the template document Specific (not All or the no
 Save the macro as part of the template documet as a Macro included document (.docm)
 Upload the template document as a temlate document in Enhanced Export PRO. 
 
+Make sure that the documents you download from Azure DevOps is trusted 
+
 
