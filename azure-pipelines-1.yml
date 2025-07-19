@@ -41,8 +41,10 @@ steps:
     volumes: |
       $(build.sourcesDirectory):/srv/jekyll
       $(build.ArtifactStagingDirectory)/support/EnhancedExportPro:/srv/jekyll/_site
-    containerCommand: 'git config --global --add safe.directory /srv/jekyll; 
-jekyll build --trace'
+   containerCommand: |
+      git config --global --add safe.directory /srv/jekyll && \
+      jekyll build --trace && \
+      echo "Build complete"
     detached: false
 - task: CmdLine@2
   displayName: 'List files '
