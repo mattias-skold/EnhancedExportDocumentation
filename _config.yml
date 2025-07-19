@@ -31,9 +31,9 @@ source: support-site
 markdown: kramdown
 #theme: minmal
 #theme: jekyll-theme-slate
-remote_theme: jekyll-airspace
+#remote_theme: jekyll-airspace
+# - jekyll-remote-theme # add this line to the plugins list if you already have one
 plugins:
-  - jekyll-remote-theme # add this line to the plugins list if you already have one
   - jekyll-git_metadata
   - jekyll-feed
   - liquid_reading_time
