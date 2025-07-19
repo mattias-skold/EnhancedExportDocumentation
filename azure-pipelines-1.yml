@@ -36,7 +36,6 @@ steps:
 - task: Docker@0
   displayName: 'Run Jekyll'
   inputs:
-    containerRegistryType: 'Container Registry'
     action: 'Run an image'
     imageName: 'jekyll/builder:latest'
     volumes: |
