@@ -42,7 +42,7 @@ steps:
       $(build.sourcesDirectory):/srv/jekyll
       $(build.ArtifactStagingDirectory)/support/EnhancedExportPro:/srv/jekyll/_site
    containerCommand: |
-      git config --global --add safe.directory /srv/jekyll && \
+      git config --global --add safe.directory /srv/jekyll
       jekyll build --trace 
     detached: false
 - task: CmdLine@2
